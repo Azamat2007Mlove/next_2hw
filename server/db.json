@@ -1,0 +1,46 @@
+{
+  "products": [
+      {
+          "userId": "Pixel PXG25 280Hz",
+          "id": 1,
+          "price": 2875000,
+          "title": "Артикул: TUB24G43M2",
+          "img": "https://files.ox-sys.com/cache/800x_/image/06/38/e1/0638e1be86ff97595ecdd8b7267d29d58ae1ef3b3f6bf194123edefb9777ebf8.jpg"
+        },
+      {
+          "userId": "Pixel PXG25V 240Hz ",
+          "id": 2,
+          "price": 1500000,
+          "title": "Артикул: VN201Z3OVO",
+          "img": "https://files.ox-sys.com/cache/800x_/image/f6/06/9c/f6069c030ffd6edcab4cfb6c6c3840a8e65c17a93ff7b79f5a7b8fbfbb7cb18a.jpg"
+        },
+        {
+          "userId": "Pixel PXG272i",
+          "id": 3,
+          "price": 2875000,
+          "title": "Артикул: AXB5RPEC9S",
+          "img": "https://files.ox-sys.com/cache/800x_/image/27/3a/25/273a25764e709122957942684b6aa031ba7ffff8d57290550d7d46d10ec23345.jpg"
+        },
+        {
+          "userId": "Pixel PXG27CU 200Hz ",
+          "id": 4,
+          "price": 1812500,
+          "title": "eАртикул: SCQZYWV62Z",
+          "img": "https://files.ox-sys.com/cache/800x_/image/3f/ca/3c/3fca3caac69c7b0197bf206c855840542b1824d226a34587f2793285057f837e.jpg"
+        },
+        {
+          "userId": "Pixel PXG27i",
+          "id": 5,
+          "price": 1875000,
+          "title": "Артикул: AI7TIV17FV",
+          "img": "https://files.ox-sys.com/cache/800x_/image/af/e5/44/afe544cd62358b641d607d9c0f1b9ebe98a8c3700c6bcbfcc40daace121c5f53.jpg"
+        },
+        {
+          "userId": "Pixel PXG322CU",
+          "id": 6,
+          "price": 2750000,
+          "title": "Артикул: NJ94LIVPFV",
+          "img": "https://files.ox-sys.com/cache/800x_/image/14/d1/6a/14d16a31ff311e86e9bf6de777902064c094def0de233352c74f7f3569dc4337.jpg"
+        }
+  ]
+}

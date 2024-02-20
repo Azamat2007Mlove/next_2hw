@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.case{
+  margin: auto;
+  width: 95%;
+  max-width: 1680px;
+}
+/* Nav scss start */
+nav{
+  width: 100%;
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      .left{
+        img{
+          width: 100%;
+        }
+      }
+      .center{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+        .find{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 0px;
+          border: 2px solid red;
+          border-radius: 10px;
+          .finp{
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            .inp{
+              outline: none;
+              border-top-right-radius: 0px;
+              border-bottom-right-radius: 0px;
+            }
+          }
+          button{
+            width: 20%;
+            background-color: red;
+            color: white;
+            border: none;
+            height: 57px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+        }
+        .navp{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 50px;
+          font-size: 1.2rem;
+        }
+      }
+      .right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        font-size: 2rem;
+      }
+  } 
+}
+
+
+/* Nav scss finish */
+
+
+.text{
+  display: flex;
+  gap: 100px;
+  margin: 50px 0;
+  align-items: center;
+  font-size: 1.7rem;
+  .act{
+    color: red;
+    text-decoration-line: unset;
+  }
+}
+
+
+.wrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  .card{
+    width: 400px;
+    padding: 20px;
+    color: black;
+    img{
+      width: 100%;
+      padding: 50px;
+    }
+    h1{
+      font-size: 1.2rem;
+    }
+    button{
+      width: 100%;
+      height: 70px;
+      background-color: rgba(237, 237, 237, 1);
+      border: none;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+
+
+.products{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid chocolate;
+    border-radius: 100px;
+    align-items: center;
+    padding: 0 100px;
+  }
+  .pleft{
+
+    img{
+      width: 70%;
+    }
+  }
+  .pright{
+    
+    color: black;
+    
+    h1{
+      font-size: 2rem;
+    }
+    p{
+      color: grey;
+      font-size: 1rem;
+    }
+    b{
+      font-size: 1.2rem;
+    }
+    button{
+      padding: 20px 120px;
+      margin-top: 50px;
+      border-radius: 25px;
+      background-color: chocolate;
+      color: white;
+      font-size: 1.2rem;
+      border: none;
+    }
+  }
+}
+
+
+
+/* Footer scss start */
+
+
+footer{
+  width: 100%;
+  background-color: red;
+  color: white !important;
+  padding: 100px;
+  .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .fleft{
+      .app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        font-size: 2rem;
+        margin-top: 50px;
+      }
+    }
+    .fright{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 300px;
+    }
+  }
+  .fbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+}
+
+
+
+/* Footer scss finish */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
